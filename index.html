@@ -4,10 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/css"
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>JavaScript Quiz</title>
 </head>
+
 <body>
+   <!-- Header-->
+    <div class="header"> <a href="highscore.html">Highscores</a> 
+    </div>
+
+    <div class="timer">Time Left: <span id="time">0</span></div>
     
+    </div>
+    <!-- holds start page-->
+    <div class="app">
+        <div id="onboarding" class="start">
+            <h1>JavaScript Quiz</h1>
+
+            <p>Try to answer the following code-related questions within the time
+                limit. Keep in mind that incorrect answers will penalize your
+                score/time by ten seconds!</p>
+                <button id="start">Start Quiz</button>
+    </div>
+
+    
+    <!-- holds quiz/questions section -->
+
+    <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+    </div>
+    
+
+
+        <h2>Quiz Completed!</h2>
+        <p>Your Score is<span id="final-score"></span>!</p>
+        <p> Enter your Initals: <input type="text" id="initals" max="4" />
+        <button id="submit">Submit</button>
+        </p>
+    <div id="chart" class="chart hide"> </div>
+    </div>
+    
+    </div>
+
+    <script defer src="./assets/js/script.js"></script>
 </body>
+
 </html>
