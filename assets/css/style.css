@@ -1,0 +1,96 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 8px;
+font-family: Helvetica, sans-serif;
+font-size: 100%;
+align-items: center;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 100%;
+}
+.app{
+    margin: 100px auto 0 auto;
+    max-width: 500px;
+}
+
+
+h1 {
+    font-size:  28px;
+    color:rgb(37, 40, 43);
+}
+
+.header {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+}
+.timer {
+    position: absolute;
+    top: 8px;
+    right:12px;
+}
+.hide {
+    display: none;
+}
+
+
+button {
+    appearance: auto;
+    display: inline-block;
+    margin: 5px;
+    padding: 6px 18px;
+    background-color:rgba(232, 156, 43, 0.92);
+    color:cornsilk;
+    border-radius: 6px;
+    border-style: none;
+    font-family: Helvetica, sans-serif;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+button:hover {
+    background-color:rgb(52, 96, 96);
+    color: rgb(232, 235, 238);
+}
+.choices button {
+    display: block;
+
+}
+.header {
+    display: flex;
+    border-radius: 18px;
+    justify-content: space-between;
+    margin: 6px 30px;
+    color: mediumvioletred;
+    font-family: Helvetica, sans-serif;
+}
+ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+}
+
+li {
+    padding: 6px;
+}
+
+h1 {
+    padding: 16px;
+}
+
+.start {
+    text-align: center;
+}
+
+.app
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem;
+}
